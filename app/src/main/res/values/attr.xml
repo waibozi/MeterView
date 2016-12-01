@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MeterView">
+        <!--圆盘最大值-->
+        <attr name="maxValue" format="integer" />
+        <!--圆盘扫过的角度-->
+        <attr name="sweepAngle" format="integer" />
+        <!--圆盘出事角度-->
+        <attr name="startAngle" format="integer" />
+        <!--外圈宽度-->
+        <attr name="outSweepWidth" format="integer" />
+        <!--内圈宽度-->
+        <attr name="inSweepWidth" format="integer" />
+    </declare-styleable>
+</resources>
