@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         mv_view = (MeterView) findViewById(R.id.mv_view);
-        mv_view.setCurrentValue(701);
+        mv_view.setCurrentValue(801);
         mv_view.startAnimation();
     }
 }

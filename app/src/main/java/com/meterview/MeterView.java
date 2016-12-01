@@ -124,6 +124,7 @@ public class MeterView extends View {
         outSweepWidth = array.getInt(R.styleable.MeterView_outSweepWidth, dp2px(3));
         inSweepWidth = array.getInt(R.styleable.MeterView_outSweepWidth, dp2px(8));
         startAngle = array.getInt(R.styleable.MeterView_startAngle, 160);
+        currentValue = maxValue / 2;
         array.recycle();
     }
 
